@@ -1,0 +1,32 @@
+img {
+	width: 300px;
+	float: right;
+}
+#katze {
+	float: left;
+}
+
+h1 {
+	color: lightblue;
+	text-align: center;
+	font-size: 60px;
+}
+h2 {
+	font-size: 14px;
+	background-color: grey;
+}
+h3 {
+	font-style: 16px;
+	color: lightgreen;
+}
+h4{
+	color: darkgreen;
+	font-size: 20px;
+}
+h5 {
+	color: orange;
+}
+img {
+	width: 500px;
+	background-color: blue;
+}
