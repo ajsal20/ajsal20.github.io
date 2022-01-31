@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Share+Tech+Mono&display=swap');
+
+
+
+h1{
+	background-color: lightcoral;
+	padding: 50px;
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-family: Fraunces;
+
+}
+h2{
+	padding: 30px;
+	background-color: lightgreen;
+	font-size: 40px;
+	text-align: right;
+	font-family: Indie Flower;
+
+}
+p{
+	padding: 30px:
+	font-size: 25px;
+	text-align: justify;
+	column-count: 3;
+	line-height: 1.7;
+	font-family: josefin sans;
+}
+.name {
+	font-family: Share Tech Mono, monospace;
+	font-size: 50px;
+	padding: 50px;
+	background-color: grey;
+	color: white;
+	border-radius: 20px;
+	transform: rotate(-5deg);
+
+
+}
+body{
+	background:  radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(151,88,214,1) 26%, rgba(120,84,188,1) 48%, rgba(199,77,120,1) 88%, rgba(252,70,107,1) 100%);
+}
