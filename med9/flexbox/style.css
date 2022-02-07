@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Share+Tech+Mono&display=swap');
+
+
+
+
+
+.first-try{
+	height: 400px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	background-color: lightpink;
+	font-family: 'Fraunces', serif;
+}
+.seccond-try{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 400px;
+	background-color: lightgreen;
+
+}
+p{
+	background-color: violet;
+}
+.third-try{
+	justify-content: space-evenly;
+	display: flex;
+	height: 450px;
+	background-color: green;
+	align-items: flex-end;
+}
+p{
+	background-color: pink;
+}
+.fourth-try{
+	display: flex;
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(151,88,214,1) 26%, rgba(120,84,188,1) 48%, rgba(199,77,120,1) 88%, rgba(252,70,107,1) 100%);
+
+}
+img{
+	width: 200px;
+
+}
