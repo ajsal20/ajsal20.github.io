@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Share+Tech+Mono&display=swap');
+
+
+
+
+
+
+
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Fraunces', serif;
+
+
+}
+h2{
+	text-align: center;
+	font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+
+}
+.a p {
+	column-count: 3;
+	border: 10px dotted ;
+	font-family: 'Fraunces', serif;
+
+}
+#b {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(88,112,214,1) 9%, rgba(84,128,188,1) 59%);
+	padding: 20px;
+	height: 30px;
+	border: 10px dotted;
+	margin: 10px;
+	
+
+}
+#b p {
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px;
+}
+.c{
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	border: 10px dotted black;
+	background-color:lightblue ;
+	margin: 0px;
+
+}
+.c p{
+	background-color: white ;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 150px;
+	margin: 0px;
+
+}
+img{
+	border: 2px solid white ;
+	height: 150px;
+	width: 150px;
+	
+
+}
+
+}
+#d{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	margin: 5px;
+	background-color: blue;
+	border: 5px dotted black;
+} 
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	height: 170px;
+	border: 5px dotted black;
+	background-color: darkblue;
+
+}
+ footer p {
+ 	margin: 0px;
+ 	background-color: white;
+ 	padding: 10px;
+ }
