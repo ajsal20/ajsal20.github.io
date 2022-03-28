@@ -1,0 +1,76 @@
+/*
+*Title:Eie Webseite über Frankreich;
+Autorin:Ajsi Sala;
+*Date:28.03.2022;
+*
+*
+*/
+
+/****************General Styling******************/
+body{
+	margin: 0;
+
+
+}
+/*Navication*/
+nav{
+	background-color: lightblue;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	height: 80px;
+	border-radius: 50%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: lightpink;
+	color: green;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+nav ul li a:hover{
+	background-color: darkblue;
+	color: yellow;
+}
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	padding: 30px;
+	background-color: rgba(255,223,134,0.7);
+	font-size: 40px;
+	border-radius: 20px;
+	color: blue;
+}
+/*Footer*/
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(89,184,206,1) 18%, rgba(104,147,210,1) 32%, rgba(185,123,218,1) 51%, rgba(199,96,227,1) 66%, rgba(237,68,159,1) 85%, rgba(253,209,45,1) 100%);
+}
+footer p{
+	padding: 30px;
+	font-size: 20px;
+	color: steelblue;
+	background-color:  rgb(252, 3, 15);
+	border-radius: 20px;
+}
