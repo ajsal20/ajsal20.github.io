@@ -1,0 +1,47 @@
+p { 
+	padding: 50px;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+ }
+
+.first {
+	background-color: rgb(50,168,149);
+}
+.second{
+	background-color: #323ea8;
+}
+
+.third{
+	background-color: rgb(125, 50, 168);
+}
+.forth{
+	background-color: #a83298;
+}
+.fifth{
+	background-color: rgb(168, 50, 85);
+}
+.sixth{
+	background-color: #a83232;
+}
+.seventh{
+	background-color: rgb(189, 72, 13);
+}
+.eighth{
+	background-color: #568a2f;
+}
+.nineth{
+	background-color: rgb(219, 207, 31);
+}
+.tenth{
+	background-color: #2cded5;
+}
+h1{
+   color: lightpink;
+   text-align: center;
+   font-size: 30px;
+   padding: 35px;
+   margin: 20px;
+   background-color: lightblue;
+}
