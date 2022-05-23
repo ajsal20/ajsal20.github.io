@@ -1,0 +1,247 @@
+/****************General Styling******************/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IM+Fell+Great+Primer+SC&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IM+Fell+Great+Primer+SC&family=Indie+Flower&family=Metal&family=Seymour+One&display=swap');
+
+html { 
+  background: url(bild4.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
+ * /*Navication*/
+nav{
+	background-color: black;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	height: 80px;
+	border-radius: 40%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+nav ul li a:hover{
+	background-color: grey;
+	color: peru;
+}
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	padding: 30px;
+	background-color: rgba(49, 50, 61,0.7);
+	font-size: 40px;
+	border-radius: 20px;
+	color: darkblue;
+}
+/******************** Page Styling*********************/
+ * #products header h1{
+      padding: 30px;
+
+ }
+ nav{
+	background-color:black;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#home main h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+
+
+main h2 {
+	color:black;	
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+
+
+}
+main h4{
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+
+} 
+main h3{
+   color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+
+}
+main h5{
+   color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+
+}
+main h6{
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h7 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h8 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h9 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h10 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h11 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h12 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+main h13 {
+	 color: black;
+   font-family: 'Amatic SC', cursive;
+   font-size: 30px;
+}
+
+main p {
+	color: rosybrown;
+	font-family: 'Amatic SC', cursive;
+	padding: 50px;
+	margin: 50px;
+	font-size: 30px;
+
+}
+/*Footer*/
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	background: rgb(56,56,61);
+background: linear-gradient(90deg, rgba(56,56,61,1) 0%, rgba(139,139,171,1) 50%, rgba(52,60,89,1) 100%);
+}
+/*Products*/
+img{
+	width: 200px;
+}
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+main div h2:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h3:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h4:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h5:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h6:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h7:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h8:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h9:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h10:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h11:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h12:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+main div h13:hover {
+	background-color: black;
+    color: lightgrey;
+    border-radius:30px;
+
+}
+img{
+	background-image: url(bild8.jpg);
+	background-size: cover;
+	background-position: center;
+}
