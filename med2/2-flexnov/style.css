@@ -1,0 +1,42 @@
+body{
+	background-color: darkgrey;
+	margin: 0;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	background-color: lightgray;
+}
+
+nav img{
+	width: 160px;
+}
+
+nav ul{
+	display: flex;
+align-items: center;
+justify-content: flex-end;
+width: 100%;
+list-style: none;
+}
+
+nav ul li{
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+	background-color: lightcoral;
+	border-radius: 50px;
+	font-family: calibri; 
+}
+
+nav ul li a:hover{
+	background-color: darkgrey;
+}
