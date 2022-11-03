@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid</title>
+	<style type="text/css"> 
+		div{
+			border: solid 1px;
+		}
+		.container{
+			width: 400px;
+			height: 300px;
+			display: grid;
+			/*Defines number and width of the columns fr= Fraction*/
+			grid-template-columns: 1fr 1fr 1fr;
+			/*Defines the number and heightb of the gap*/
+			grid-template-rows: 100px auto;
+		}
+		.special{
+			/*grid-column-start: 1;
+			grid-column-end: 3;*/
+			grid-column: 1/3;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div>1</div>
+		<div>2</div>
+		<div>2</div>
+		<div class="special">4</div>
+		<div>5</div>
+		
+
+	</div>
+
+</body>
+</html>
