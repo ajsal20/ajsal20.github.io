@@ -1,0 +1,90 @@
+div{
+   border: dashed 1px;
+		
+}
+body{
+	margin: 0%;
+	display: flex; 
+}
+
+.grid-container{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+    grid-template-columns: 20vw auto 20vw;
+    grid-template-rows: 10vh auto auto 10vh;		
+}
+header{
+	background-color: grey;
+	grid-column: 1/4;
+}
+main{
+	background-color: lightblue;
+	grid-column: 2/3;
+	grid-row:2/4;
+	animation-name: text;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+footer{
+	background-color:  lightgrey;
+	grid-column: 1/4;
+	animation-name: process;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+}
+.animation{
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.a1{
+	background-color: pink;
+	float: left;
+	grid-column: 3/4;
+	grid-row:2/3;
+}
+.a2{
+	background-color:lightgreen;
+	float: left;
+	grid-column: 3/4;
+	grid-row:3/4;
+}
+nav{
+	background-color: 	rgb(204, 204, 255);
+	grid-column:1/2;
+	grid-row: 2/4;
+	animation-name: bounce;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+
+}
+@keyframes move {
+	0%{transform: translateX(0);}
+	33%{transform: translateY(100%); background-color:	rgb(255, 204, 217)}
+	66%{transform: translateX(100%) translateY(100%);}
+	100% {transform: translateX(100%);}
+}
+@keyframes bounce {
+	0% {transform: translateY(0px);}
+	50% {transform: translateY(25px);}
+	100% {transform: translateY(0px);}
+
+}
+@keyframes text {
+	0% {opacity: 0 ;background-color:lightblue;}
+	50%{opacity: 100;background-color:lightpink;}
+	100%{opacity: 0;background-color:lightblue;}
+}
+
+@keyframes process{
+	0%{width: 0px;}
+	50%{width:25%;}
+	75%{width:50%;}
+	85%{width: 75%;}
+	100%{width: 100%}
+
+
+}
