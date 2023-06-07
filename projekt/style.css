@@ -1,49 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
 div{
-   border: solid  2px;
-		
+   border: solid  1px;	
 }
 body{
-	margin: 0%;
+    margin: 0;
 	display: flex; 
 }
-.one img{
-	height: 100px;
-	border-radius: 50%;
+
+ h1{
+	display: flex;
+	align-items: center;
+    justify-content:center;
+	font-size: 50px; 
+	font-family: 'Space Grotesk', sans-serif;
+	position: absolute;
+	top: 30px;
+	left: 70px;
+
 }
-
-
 .wrapper {
 	height: 100vh;
 	width: 100vw;
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    gap: 5px;
-    grid-auto-rows:  1fr, 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    grid-auto-rows:  100px auto auto;
+}
+.two p:hover{
+	font-family: 'Josefin Sans', sans-serif;
 
 }
 .one{
 	grid-column: 1/4;
-	grid-row: 1;
-    background-color: lightblue;
+	grid-row: 1/2;  
+}
+.one a{
+	position: absolute;
+	top: 10px;
+	left: 900px;
+	text-decoration: none;
+	color: black;
 }
 .two{
-	grid-column: 1/3;
-	grid-row: 2;
-    background-color: lightpink;
-}
-.three{
-	grid-column: 2/3;
-	grid-row: 2;
-    background-color: lightgrey;
-}
-.four{
 	grid-column: 1/4;
-	grid-row: 3;
-    background-color: lightcoral;
+	grid-row: 2/3;
+    background-color: rgb(123, 127, 124);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	background-image: url(ps.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
-.five{
-	grid-column: 3/4;
-	grid-row: 2;
-    background-color: lightcoral;
+
+.five {
+	grid-column:1/4 ;
+	grid-row: 3/4;
 }
+
+ h4{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 60px;
+
+}
+#body p{
+    position: absolute;
+	left:100px;
+	bottom: 200px;
+}
+.show p{
+	position: absolute;
+	left: 50px;
+	bottom: 90px;
+	color: antiquewhite;
+}
+.show p:hover{
+	position: absolute;
+	left:50px;
+	bottom: 90px;
+	color: black;
+}
+.show h7 a:hover{
+	text-decoration: none;
+	color: aliceblue;
+}
+.show h7 a{
+	text-decoration: none;
+	color: black;
+}
+
+.show h5{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 70px;
+	left:100px;
+	bottom: 100px;
+	color: blanchedalmond;
+
+}
+.show h5:hover{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 70px;
+	left:100px;
+	bottom: 100px;
+	color: black;
+}
+
+.show{
+	background-image: url(endri.jpg) ;
+	background-size: cover;
+	position: fixed; 
+}
+
+
+@media(min-width: 768px){
+    div{
+		border: solid  1px;	 
+	 }
+	 body{
+		margin: 0;
+		 display: flex;
+	 }
+	 h1{
+		display: flex;
+		align-items: center;
+		justify-content:center;
+		font-size: 50px;
+		color: #0a341b;
+		font-family: 'Space Grotesk', sans-serif;
+		position: absolute;
+		top: 30px;
+		left: 70px;
+	}
+
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #04310c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+.one {
+	position: relative;
+  }
+  .one span {
+	position: relative;
+	display: inline-block;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	animation: flip 2s infinite;
+	animation-delay: calc(.2s * var(--i));
+	top: 20px;
+	left: 50px;
+  }
+  @keyframes flip {
+	0%,80% {
+	  transform: rotateY(360deg) 
+	}
+  }
+	
+
 
