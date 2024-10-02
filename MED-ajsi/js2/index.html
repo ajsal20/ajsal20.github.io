@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Js Syntax</title>
+</head>
+<body>
+	<h1>Js Syntax</h1>
+
+	 <div id="container">
+	 	
+	 </div>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+	 function createPararaf(i){
+   
+	console.log("Test: " + i); 
+	let newElement = document.createElement("p");
+	newElement.innerHTML = "Absatz";
+	newElement.style.padding="30px";
+	newElement.style.margin="5px";
+	if (i % 2===0){
+		newElement.style.background="pink";
+	}else{
+		newElement.style.background="hotpink";
+	}
+		return newElement;
+	 }
+
+
+ for(let i=0; i<100; i++){
+
+
+
+	 let newElement= createPararaf(i);
+	let myContainer = document.getElementById("container");
+	myContainer.append(newElement);
+}
+
+</script>
+
+
+
+/*for(let i=0; i<100; i++){
+	console.log("Test"+i); ky asht usht ne vedi me e nxjerr 100 her fjl test
+}
+
+	let myParagraph = document.getElementById('absatz');
+	console.log(myParagraph);
+
+	myParagraph.style.background = "blue";
+	myParagraph.style.padding = "30px";
+	myParagraph.style.fontSize = "40px";
+    
+	*/
