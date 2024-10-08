@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ufo</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="Ufo.svg" alt="Ufo">
+	  <script>
+	  	let myUfo = document.querySelector("img");
+	  	let  xPos =  document.body.clientWidth / 2;
+	  	let  yPos =  document.body.clientHeight / 2;
+	  	myUfo.style.left =xPos + "px";
+	  	myUfo.style.top = yPos + "px";
+	  	function checkBorder(){
+  		if (xPos< 0 || xPos> document.body.clientWidth - 50){
+  			myUfo.src="explosion.svg";
+  			document.body.removeEventListener("keydown", move);
+
+  		} if (xPos< 0 || xPos> document.body.clientHeight - 50){  
+  			myUfo.src="explosion.svg";
+  			document.body.removeEventListener("keydown", move);
+
+  		}
+	  	}
+	  	function move(event) {
+	  		checkBorder();
+	  		if (event.key == 'ArrowUp'){
+	  			yPos= yPos - 5;
+	  		}if (event.key == 'ArrowDown'){
+	  			yPos= yPos + 5;
+	  		}if (event.key == 'ArrowLeft'){
+	  			xPos= xPos - 5;
+	  		}if (event.key == 'ArrowRight'){
+	  			xPos= xPos + 5;
+	  		}
+	  			myUfo.style.left =xPos + "px";
+	  			myUfo.style.top = yPos + "px";
+	  		}
+	  	
+
+	  	document.body.addEventListener("keydown", move);
+	  </script>
+
+</body>
+</html>

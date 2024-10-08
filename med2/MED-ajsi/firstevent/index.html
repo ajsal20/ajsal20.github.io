@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Event</title>
+</head>
+<body>
+	<h1>Wir lernen Events</h1>
+
+	<input type="text" />
+
+	<button id="myButton">Klicke hier</button>
+
+	<select>
+		<option>a</option>
+		<option>b</option>
+		<option>c</option>
+	</select>
+		
+
+
+
+		<script type="text/javascript">
+			let button= document.getElementById("myButton");
+
+			function react(){
+				//document.body.style.background="blue";
+				let myTitle= document.querySelector("h1");
+				//myTitle.innerHTML= "Das ist Lustig!";
+				let myInput= document.querySelector("input");
+				myTitle.innerHTML= myInput.value;
+				document.body.style.background=myInput.value; 
+				let mySelect= document.querySelector("select") 
+				console.log(mySelect.value);
+			}
+
+			button.addEventListener("click", react);
+
+	
+
+		</script>
+
+
+</body>
+</html>

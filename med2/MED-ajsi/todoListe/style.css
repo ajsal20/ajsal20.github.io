@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f0f5; /* Light pink backround */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #D8BFD8; /*  die farbe von contaiener*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color: #d24d84; /* Soft pink color */
+    text-align: center;
+}
+
+input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #d24d84; /* Pink border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #d24d84; /* Pink button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkred; /* wenn wir hover machen rot bammmm */
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid skyblue; /* die linie unten soll blau sein fur kontrast */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: hotpink; /* wenn wir durschtreichen wird der text hot pink sehhr schon  */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TO-Do List</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Enter your task">  /*hier steht der test wo ir schreiben aber wenn wir schreiben verschvindet es*/
+        <input type="text" id="categoryInput" placeholder="Enter category">
+        <button id="addButton">Add Task</button>
+        <div id="taskList"></div>
+    </div>
+
+    <script>
+    let addButton = document.getElementById('addButton');
+	let taskInput = document.getElementById('taskInput');
+	let categoryInput = document.getElementById('categoryInput');
+	let taskList = document.getElementById('taskList');
+
+
+	addButton.addEventListener('click', function() {
+    let task = taskInput.value.trim();
+    let category = categoryInput.value.trim();
+
+
+    if (!task || !category) {
+        alert('Please fill in both fields.');
+        return;
+    }
+
+
+    let taskDiv = document.createElement('div');
+    taskDiv.className = 'task';
+
+
+
+    // hier geben wir den task test ein 
+    let taskText = document.createElement('div');
+    taskText.textContent = task + ' [' + category + ']';
+    taskDiv.appendChild(taskText);
+
+
+
+
+    // hier haben wir den add button 
+    let completeButton = document.createElement('button');
+    completeButton.textContent = 'Complete';
+    completeButton.onclick = function() {
+        taskText.classList.toggle('completed');// hier mit toggle kann ich die task je nachdem ob ich fertig bin verandern also ich kann sieb durschrtreichen oder ich kan den strich wieder entfernen 
+    };
+
+    // hier geben ich die informationen aus in der liste 
+    taskDiv.appendChild(completeButton);
+
+
+    // hier geben ich die informationen aus in der liste 
+    taskList.appendChild(taskDiv);
+
+
+});
+
+    </script>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zahlensumme</title>
+</head>
+<body>
+
+</body>
+</html>	
+
+
+<script type="text/javascript">
+
+	let x= parseInt(window.prompt("Bitte eine Zahl eingeben"));
+	console.log(x);
+	let sum = 0;
+	let array=[];
+
+	for (let i=0; i<=x; i++){
+		if(i % 2 ===0){
+			sum= sum +i;  //sum+=1;
+			array.push(i);
+			console.log(array);
+		}
+	}
+
+	let p = document.createElement('p');
+	p.innerHTML="Die Summe ist: "+sum;
+	document.body.append(p);
+	
+
+
+
+	</script>
